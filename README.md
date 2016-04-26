@@ -1,1 +1,1 @@
-## Sample app with menu items, and menu items created by a fragment. handle click events on each. show the flow of how the handling of menu item events bubbles up until a class declares they have handled it (by returning true from the onOptionsItemSelected method)
+### Sample app with menu items, and menu items created by a fragment. handle click events on each. show the flow of how the handling of menu item events bubbles up until a class declares they have handled it (by returning true from the onOptionsItemSelected method)
