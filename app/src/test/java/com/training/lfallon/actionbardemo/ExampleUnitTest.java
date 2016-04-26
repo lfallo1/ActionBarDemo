@@ -1,4 +1,4 @@
-package com.training.lfallon.actionbarfragments;
+package com.training.lfallon.actionbardemo;
 
 import org.junit.Test;
 

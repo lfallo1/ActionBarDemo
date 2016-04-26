@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/activity_main_menuProfile"
+        android:title="Profile" />
+    <item
+        android:id="@+id/activity_main_menuAbout"
+        android:title="About" />
+    <item
+        android:id="@+id/activity_main_menuHelp"
+        android:title="Help" />
+    <item
+        android:id="@+id/activity_main_menuShowGroup"
+        android:title="Show Group"
+        android:checkable="true"
+        android:checked="true"/>
+
+    <group android:id="@+id/activity_main_menuGroup">
+        <item android:title="Create" />
+        <item android:title="Delete" />
+        <item android:title="Edit" />
+        <item android:title="Change Permissions" />
+    </group>
+
+    <group android:id="@+id/activity_main_privacyGroup"
+        android:checkableBehavior="single">
+        <item android:title="Public" android:checked="true" />
+        <item android:title="Friends" />
+        <item android:title="Private" />
+    </group>
+
+</menu>
